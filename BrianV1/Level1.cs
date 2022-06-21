@@ -39,15 +39,13 @@ namespace BrianV1
                 if ((string)x.Tag == "spring") { springs.Add(x); }
             }
             screen.SendToBack();
-            //comment
+           
         
         }
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
-
 
         private void tmrMove_Tick(object sender, EventArgs e)
         {
