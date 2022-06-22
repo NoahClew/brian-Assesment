@@ -25,7 +25,7 @@ namespace BrianV1
         public Level1()
         {
             InitializeComponent();
-            
+            picPlayer.BringToFront();
             foreach (PictureBox x in this.screen.Controls)
             {
                 if ((string)x.Tag == "collide") { collision.Add(x); }
