@@ -22,10 +22,7 @@ namespace BrianV1
             picBrian.Location = new Point ( 230, 117); 
         }
 
-        private void btnAb_MouseHover(object sender, EventArgs e)
-        {
-            picBrian.Location = new Point(230, 159);
-        }
+       
 
         private void btnExit_MouseHover(object sender, EventArgs e)
         {
@@ -34,12 +31,9 @@ namespace BrianV1
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            startMenu menu = new startMenu();
-            menu.Close();
-            Level1 L1 = new Level1();
-            L1.Show();
-            
-                
+
+            loadingScreen lS = new loadingScreen();
+            lS.Show();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -47,11 +41,7 @@ namespace BrianV1
             this.Close();
         }
 
-        private void btnAb_Click(object sender, EventArgs e)
-        {
-            About A = new About();
-            A.Show();
-        }
+       
 
         private void tmrHov_Tick(object sender, EventArgs e)
         {

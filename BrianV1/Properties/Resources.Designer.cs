@@ -63,6 +63,16 @@ namespace BrianV1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Barline_Loading_Images_1 {
+            get {
+                object obj = ResourceManager.GetObject("Barline-Loading-Images-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bomb {
             get {
                 object obj = ResourceManager.GetObject("bomb", resourceCulture);
@@ -123,6 +133,16 @@ namespace BrianV1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loading_60 {
+            get {
+                object obj = ResourceManager.GetObject("loading-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap moving_animation {
             get {
                 object obj = ResourceManager.GetObject("moving animation", resourceCulture);
@@ -176,6 +196,26 @@ namespace BrianV1.Properties {
         internal static System.Drawing.Bitmap tile_21 {
             get {
                 object obj = ResourceManager.GetObject("tile_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vT8DJ {
+            get {
+                object obj = ResourceManager.GetObject("vT8DJ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vT8DJ1 {
+            get {
+                object obj = ResourceManager.GetObject("vT8DJ1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

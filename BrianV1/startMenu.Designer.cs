@@ -33,7 +33,6 @@ namespace BrianV1
             this.label1 = new System.Windows.Forms.Label();
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnAb = new System.Windows.Forms.Button();
             this.picBrian = new System.Windows.Forms.PictureBox();
             this.tmrHov = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picBrian)).BeginInit();
@@ -66,7 +65,7 @@ namespace BrianV1
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(268, 201);
+            this.btnExit.Location = new System.Drawing.Point(268, 159);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(208, 36);
             this.btnExit.TabIndex = 2;
@@ -75,19 +74,6 @@ namespace BrianV1
             this.btnExit.UseWaitCursor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             this.btnExit.MouseHover += new System.EventHandler(this.btnExit_MouseHover);
-            // 
-            // btnAb
-            // 
-            this.btnAb.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAb.Location = new System.Drawing.Point(268, 159);
-            this.btnAb.Name = "btnAb";
-            this.btnAb.Size = new System.Drawing.Size(208, 36);
-            this.btnAb.TabIndex = 3;
-            this.btnAb.Text = "About ";
-            this.btnAb.UseVisualStyleBackColor = true;
-            this.btnAb.UseWaitCursor = true;
-            this.btnAb.Click += new System.EventHandler(this.btnAb_Click);
-            this.btnAb.MouseHover += new System.EventHandler(this.btnAb_MouseHover);
             // 
             // picBrian
             // 
@@ -112,7 +98,6 @@ namespace BrianV1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.picBrian);
-            this.Controls.Add(this.btnAb);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.label1);
@@ -132,7 +117,6 @@ namespace BrianV1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnAb;
         private System.Windows.Forms.PictureBox picBrian;
         private System.Windows.Forms.Timer tmrHov;
     }

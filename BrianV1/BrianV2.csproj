@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="About.Designer.cs">
-      <DependentUpon>About.cs</DependentUpon>
-    </Compile>
     <Compile Include="Level1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +136,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\springboardUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vT8DJ.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vT8DJ1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-60.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barline-Loading-Images-1.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
