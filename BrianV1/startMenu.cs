@@ -26,7 +26,7 @@ namespace BrianV1
 
         private void btnExit_MouseHover(object sender, EventArgs e)
         {
-            picBrian.Location = new Point(230, 201);
+            picBrian.Location = new Point(230, 159);
         }
 
         private void btnPlay_Click(object sender, EventArgs e)

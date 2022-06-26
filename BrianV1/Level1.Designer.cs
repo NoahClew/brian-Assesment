@@ -71,7 +71,7 @@ namespace BrianV1
             this.screen.Name = "screen";
             this.screen.Size = new System.Drawing.Size(800, 450);
             this.screen.TabIndex = 3;
-            this.screen.Paint += new System.Windows.Forms.PaintEventHandler(this.screen_Paint);
+            
             // 
             // tmrColl
             // 
@@ -153,7 +153,7 @@ namespace BrianV1
             this.picPlayer.TabIndex = 1;
             this.picPlayer.TabStop = false;
             this.picPlayer.Tag = "";
-            this.picPlayer.Click += new System.EventHandler(this.picPlayer_Click);
+            
             // 
             // Level1
             // 

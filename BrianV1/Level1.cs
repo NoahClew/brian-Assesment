@@ -12,7 +12,9 @@ namespace BrianV1
 {
     public partial class Level1 : Form
     {
-        int counter = 0;
+
+        const int STARTX = 68;
+        const int STARTY = 164;
         bool right;
         bool left;
         bool jump;
@@ -39,6 +41,7 @@ namespace BrianV1
                 if ((string)x.Tag == "spring") { springs.Add(x); }
             }
             screen.SendToBack();
+            picPlayer.Location = new Point(STARTX, STARTY);
            
         
         }
@@ -143,7 +146,7 @@ namespace BrianV1
             {
                 if (picPlayer.Bounds.IntersectsWith(item.Bounds))
                 {
-                    picPlayer.Location = new Point(68, 164);
+                    picPlayer.Location = new Point(STARTX, STARTY);
                     picPlayer.Show();
                 }
             }
@@ -162,20 +165,7 @@ namespace BrianV1
             }
         }
 
-        private void picPlayer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void screen_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
     
