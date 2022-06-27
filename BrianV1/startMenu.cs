@@ -12,9 +12,12 @@ namespace BrianV1
 {
     public partial class startMenu : Form
     {
+
         public startMenu()
         {
             InitializeComponent();
+            
+        
         }
 
         private void button1_MouseHover(object sender, EventArgs e)

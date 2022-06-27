@@ -133,7 +133,7 @@ namespace BrianV1
             {
                 picNextLevel.Left -= 100;
                 Level2 L2 = new Level2();
-                
+                L2.tim
                 L2.Show();
 
             }
