@@ -33,6 +33,10 @@ namespace BrianV1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level1));
             this.tmrMove = new System.Windows.Forms.Timer(this.components);
             this.screen = new System.Windows.Forms.Panel();
+            this.tmrColl = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblNdeaths = new System.Windows.Forms.Label();
+            this.lblDeath = new System.Windows.Forms.Label();
             this.picPlayer = new System.Windows.Forms.PictureBox();
             this.picNextLevel = new System.Windows.Forms.PictureBox();
             this.picTut = new System.Windows.Forms.PictureBox();
@@ -41,11 +45,8 @@ namespace BrianV1
             this.picSpring1 = new System.Windows.Forms.PictureBox();
             this.picDang = new System.Windows.Forms.PictureBox();
             this.picFloor1 = new System.Windows.Forms.PictureBox();
-            this.tmrColl = new System.Windows.Forms.Timer(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblNdeaths = new System.Windows.Forms.Label();
-            this.lblDeath = new System.Windows.Forms.Label();
             this.screen.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNextLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTut)).BeginInit();
@@ -54,7 +55,6 @@ namespace BrianV1
             ((System.ComponentModel.ISupportInitialize)(this.picSpring1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFloor1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tmrMove
@@ -78,6 +78,41 @@ namespace BrianV1
             this.screen.Size = new System.Drawing.Size(800, 424);
             this.screen.TabIndex = 3;
             // 
+            // tmrColl
+            // 
+            this.tmrColl.Enabled = true;
+            this.tmrColl.Interval = 1;
+            this.tmrColl.Tick += new System.EventHandler(this.tmrColl_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.lblNdeaths);
+            this.panel1.Controls.Add(this.lblDeath);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 20);
+            this.panel1.TabIndex = 49;
+            // 
+            // lblNdeaths
+            // 
+            this.lblNdeaths.AutoSize = true;
+            this.lblNdeaths.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNdeaths.Location = new System.Drawing.Point(59, 2);
+            this.lblNdeaths.Name = "lblNdeaths";
+            this.lblNdeaths.Size = new System.Drawing.Size(16, 18);
+            this.lblNdeaths.TabIndex = 50;
+            this.lblNdeaths.Text = "0";
+            // 
+            // lblDeath
+            // 
+            this.lblDeath.AutoSize = true;
+            this.lblDeath.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDeath.Location = new System.Drawing.Point(3, 3);
+            this.lblDeath.Name = "lblDeath";
+            this.lblDeath.Size = new System.Drawing.Size(67, 18);
+            this.lblDeath.TabIndex = 49;
+            this.lblDeath.Text = "Deaths : ";
+            // 
             // picPlayer
             // 
             this.picPlayer.BackColor = System.Drawing.Color.Black;
@@ -99,10 +134,10 @@ namespace BrianV1
             // 
             // picTut
             // 
-            this.picTut.Image = ((System.Drawing.Image)(resources.GetObject("picTut.Image")));
+            this.picTut.Image = global::BrianV1.Properties.Resources.f53da492d29d6afd2f4260f2b1b163cd;
             this.picTut.Location = new System.Drawing.Point(12, 28);
             this.picTut.Name = "picTut";
-            this.picTut.Size = new System.Drawing.Size(412, 35);
+            this.picTut.Size = new System.Drawing.Size(547, 84);
             this.picTut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picTut.TabIndex = 48;
             this.picTut.TabStop = false;
@@ -130,7 +165,7 @@ namespace BrianV1
             // picSpring1
             // 
             this.picSpring1.Image = global::BrianV1.Properties.Resources.springboardDown;
-            this.picSpring1.Location = new System.Drawing.Point(253, 306);
+            this.picSpring1.Location = new System.Drawing.Point(255, 304);
             this.picSpring1.Name = "picSpring1";
             this.picSpring1.Size = new System.Drawing.Size(42, 48);
             this.picSpring1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -161,41 +196,6 @@ namespace BrianV1
             this.picFloor1.TabStop = false;
             this.picFloor1.Tag = "collide";
             // 
-            // tmrColl
-            // 
-            this.tmrColl.Enabled = true;
-            this.tmrColl.Interval = 1;
-            this.tmrColl.Tick += new System.EventHandler(this.tmrColl_Tick);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.lblNdeaths);
-            this.panel1.Controls.Add(this.lblDeath);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 20);
-            this.panel1.TabIndex = 49;
-            // 
-            // lblNdeaths
-            // 
-            this.lblNdeaths.AutoSize = true;
-            this.lblNdeaths.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNdeaths.Location = new System.Drawing.Point(59, 2);
-            this.lblNdeaths.Name = "lblNdeaths";
-            this.lblNdeaths.Size = new System.Drawing.Size(16, 18);
-            this.lblNdeaths.TabIndex = 50;
-            this.lblNdeaths.Text = "0";
-            // 
-            // lblDeath
-            // 
-            this.lblDeath.AutoSize = true;
-            this.lblDeath.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeath.Location = new System.Drawing.Point(3, 3);
-            this.lblDeath.Name = "lblDeath";
-            this.lblDeath.Size = new System.Drawing.Size(61, 17);
-            this.lblDeath.TabIndex = 49;
-            this.lblDeath.Text = "Deaths : ";
-            // 
             // Level1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +212,8 @@ namespace BrianV1
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.screen.ResumeLayout(false);
             this.screen.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNextLevel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTut)).EndInit();
@@ -220,8 +222,6 @@ namespace BrianV1
             ((System.ComponentModel.ISupportInitialize)(this.picSpring1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDang)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFloor1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

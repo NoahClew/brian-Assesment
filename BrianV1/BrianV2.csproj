@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Level8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level8.Designer.cs">
+      <DependentUpon>Level8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level7.Designer.cs">
+      <DependentUpon>Level7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Level6.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,12 @@
     <Compile Include="startMenu.Designer.cs">
       <DependentUpon>startMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Level8.resx">
+      <DependentUpon>Level8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level7.resx">
+      <DependentUpon>Level7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Level6.resx">
       <DependentUpon>Level6.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +211,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Barline-Loading-Images-1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f53da492d29d6afd2f4260f2b1b163cd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

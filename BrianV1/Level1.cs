@@ -91,12 +91,12 @@ namespace BrianV1
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Right)
+            if (e.KeyCode == Keys.D)
             {
 
                 right = true;
             }
-            if (e.KeyCode == Keys.Left)
+            if (e.KeyCode == Keys.A)
             {
 
                 left = true;
@@ -107,7 +107,7 @@ namespace BrianV1
             }
             if (jump != true)
             {
-                if (e.KeyCode == Keys.Up)
+                if (e.KeyCode == Keys.W)
                 {
                     jump = true;
                     g = 26;
@@ -118,11 +118,11 @@ namespace BrianV1
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Right)
+            if (e.KeyCode == Keys.D)
             {
                 right = false;
             }
-            if (e.KeyCode == Keys.Left)
+            if (e.KeyCode == Keys.A)
             {
                 left = false;
             }

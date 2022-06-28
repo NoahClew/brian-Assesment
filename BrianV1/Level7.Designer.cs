@@ -1,7 +1,7 @@
 ﻿
 namespace BrianV1
 {
-    partial class Level5
+    partial class Level7
     {
         /// <summary>
         /// Required designer variable.
@@ -30,24 +30,19 @@ namespace BrianV1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level5));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level7));
             this.tmrMove = new System.Windows.Forms.Timer(this.components);
             this.screen = new System.Windows.Forms.Panel();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.picSpring1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.picPlayer = new System.Windows.Forms.PictureBox();
             this.picNextLevel = new System.Windows.Forms.PictureBox();
             this.picDang = new System.Windows.Forms.PictureBox();
@@ -57,21 +52,16 @@ namespace BrianV1
             this.lblNdeaths = new System.Windows.Forms.Label();
             this.lblDeath = new System.Windows.Forms.Label();
             this.screen.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSpring1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNextLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDang)).BeginInit();
@@ -87,21 +77,16 @@ namespace BrianV1
             // 
             // screen
             // 
-            this.screen.Controls.Add(this.pictureBox11);
-            this.screen.Controls.Add(this.pictureBox12);
-            this.screen.Controls.Add(this.pictureBox13);
-            this.screen.Controls.Add(this.pictureBox14);
             this.screen.Controls.Add(this.pictureBox6);
             this.screen.Controls.Add(this.pictureBox7);
-            this.screen.Controls.Add(this.pictureBox8);
-            this.screen.Controls.Add(this.pictureBox9);
-            this.screen.Controls.Add(this.pictureBox4);
-            this.screen.Controls.Add(this.pictureBox2);
             this.screen.Controls.Add(this.pictureBox5);
-            this.screen.Controls.Add(this.pictureBox10);
-            this.screen.Controls.Add(this.picSpring1);
+            this.screen.Controls.Add(this.pictureBox4);
             this.screen.Controls.Add(this.pictureBox3);
+            this.screen.Controls.Add(this.pictureBox2);
+            this.screen.Controls.Add(this.pictureBox11);
             this.screen.Controls.Add(this.pictureBox1);
+            this.screen.Controls.Add(this.pictureBox13);
+            this.screen.Controls.Add(this.pictureBox12);
             this.screen.Controls.Add(this.picPlayer);
             this.screen.Controls.Add(this.picNextLevel);
             this.screen.Controls.Add(this.picDang);
@@ -111,170 +96,115 @@ namespace BrianV1
             this.screen.Size = new System.Drawing.Size(800, 424);
             this.screen.TabIndex = 3;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::BrianV1.Properties.Resources.springboardDown;
-            this.pictureBox11.Location = new System.Drawing.Point(605, 304);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(42, 48);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 68;
-            this.pictureBox11.TabStop = false;
-            this.pictureBox11.Tag = "spring";
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(653, 144);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox12.TabIndex = 67;
-            this.pictureBox12.TabStop = false;
-            this.pictureBox12.Tag = "danger";
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(653, 214);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox13.TabIndex = 66;
-            this.pictureBox13.TabStop = false;
-            this.pictureBox13.Tag = "danger";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(653, 284);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox14.TabIndex = 65;
-            this.pictureBox14.TabStop = false;
-            this.pictureBox14.Tag = "danger";
-            // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::BrianV1.Properties.Resources.springboardDown;
-            this.pictureBox6.Location = new System.Drawing.Point(459, 304);
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(718, 214);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(42, 48);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 64;
+            this.pictureBox6.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox6.TabIndex = 77;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "spring";
+            this.pictureBox6.Tag = "danger";
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(507, 144);
+            this.pictureBox7.Location = new System.Drawing.Point(718, 284);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(70, 70);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox7.TabIndex = 63;
+            this.pictureBox7.TabIndex = 76;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Tag = "danger";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(507, 214);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox8.TabIndex = 62;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Tag = "danger";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(507, 284);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox9.TabIndex = 61;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "danger";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::BrianV1.Properties.Resources.springboardDown;
-            this.pictureBox4.Location = new System.Drawing.Point(312, 304);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(42, 48);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 60;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Tag = "spring";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(360, 144);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 59;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "danger";
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(360, 214);
+            this.pictureBox5.Location = new System.Drawing.Point(577, 74);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(70, 70);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 58;
+            this.pictureBox5.TabIndex = 75;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Tag = "danger";
             // 
-            // pictureBox10
+            // pictureBox4
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(360, 284);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox10.TabIndex = 57;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Tag = "danger";
-            // 
-            // picSpring1
-            // 
-            this.picSpring1.Image = global::BrianV1.Properties.Resources.springboardDown;
-            this.picSpring1.Location = new System.Drawing.Point(168, 304);
-            this.picSpring1.Name = "picSpring1";
-            this.picSpring1.Size = new System.Drawing.Size(42, 48);
-            this.picSpring1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picSpring1.TabIndex = 56;
-            this.picSpring1.TabStop = false;
-            this.picSpring1.Tag = "spring";
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(507, 284);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 74;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Tag = "danger";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(216, 144);
+            this.pictureBox3.Location = new System.Drawing.Point(577, 144);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(70, 70);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 48;
+            this.pictureBox3.TabIndex = 73;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Tag = "danger";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(577, 214);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 72;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "danger";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::BrianV1.Properties.Resources.springboardDown;
+            this.pictureBox11.Location = new System.Drawing.Point(419, 304);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(42, 48);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 71;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Tag = "spring";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(216, 214);
+            this.pictureBox1.Location = new System.Drawing.Point(577, 284);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(70, 70);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 46;
+            this.pictureBox1.TabIndex = 70;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "danger";
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(286, 214);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox13.TabIndex = 69;
+            this.pictureBox13.TabStop = false;
+            this.pictureBox13.Tag = "danger";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(286, 284);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox12.TabIndex = 68;
+            this.pictureBox12.TabStop = false;
+            this.pictureBox12.Tag = "danger";
             // 
             // picPlayer
             // 
@@ -353,7 +283,7 @@ namespace BrianV1
             this.lblDeath.TabIndex = 49;
             this.lblDeath.Text = "Deaths : ";
             // 
-            // Level5
+            // Level7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -362,28 +292,23 @@ namespace BrianV1
             this.Controls.Add(this.screen);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Level5";
-            this.Text = "Level 5";
+            this.Name = "Level7";
+            this.Text = "Level 7";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.screen.ResumeLayout(false);
             this.screen.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSpring1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNextLevel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDang)).EndInit();
@@ -405,21 +330,16 @@ namespace BrianV1
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblNdeaths;
         private System.Windows.Forms.Label lblDeath;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox picSpring1;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 

@@ -40,21 +40,21 @@ namespace BrianV1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(287, 97);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 65);
+            this.label1.Size = new System.Drawing.Size(262, 73);
             this.label1.TabIndex = 0;
             this.label1.Text = "Loading";
             // 
             // lblFact
             // 
             this.lblFact.AutoSize = true;
-            this.lblFact.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFact.Location = new System.Drawing.Point(113, 296);
+            this.lblFact.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFact.Location = new System.Drawing.Point(153, 237);
             this.lblFact.MaximumSize = new System.Drawing.Size(600, 0);
             this.lblFact.Name = "lblFact";
-            this.lblFact.Size = new System.Drawing.Size(100, 36);
+            this.lblFact.Size = new System.Drawing.Size(109, 39);
             this.lblFact.TabIndex = 2;
             this.lblFact.Text = "label2";
             // 

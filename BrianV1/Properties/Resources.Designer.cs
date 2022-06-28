@@ -123,6 +123,16 @@ namespace BrianV1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap f53da492d29d6afd2f4260f2b1b163cd {
+            get {
+                object obj = ResourceManager.GetObject("f53da492d29d6afd2f4260f2b1b163cd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap idle_animation {
             get {
                 object obj = ResourceManager.GetObject("idle animation", resourceCulture);

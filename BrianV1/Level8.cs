@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BrianV1
 {
-    public partial class Level6 : Form
+    public partial class Level8 : Form
     {
 
         const int STARTX = 68;
@@ -25,7 +25,7 @@ namespace BrianV1
         List<PictureBox> dangerBlocks = new List<PictureBox>();
         List<PictureBox> springs = new List<PictureBox>();
 
-        public Level6()
+        public Level8()
         {
             InitializeComponent();
             picPlayer.BringToFront();
@@ -54,7 +54,7 @@ namespace BrianV1
 
         private void tmrMove_Tick(object sender, EventArgs e)
         {
-            
+
 
 
             if (right == true)
@@ -133,8 +133,8 @@ namespace BrianV1
             {
                 picNextLevel.Left -= 100;
                 this.Hide();
-                Level7 L7 = new Level7();
-                L7.Show();
+                Level2 L2 = new Level2();
+                L2.Show();
                 this.Close();
 
             }
@@ -156,20 +156,20 @@ namespace BrianV1
                     picPlayer.Show();
                 }
             }
-            foreach (var item in springs)
-            {
-                if (jump == false)
-                {
-                    item.Image = picSpring1.Image = Properties.Resources.springboardDown;
-                }
-                if (picPlayer.Bounds.IntersectsWith(item.Bounds))
-                {
-                    item.Image = Properties.Resources.springboardUp;
-                    jump = true;
-                    g = 32;
-                    force = g;
-                }
-            }
+            //foreach (var item in springs)
+            //{
+            //    if (jump == false)
+            //    {
+            //        item.Image = Properties.Resources.springboardDown;
+            //    }
+            //    if (picPlayer.Bounds.IntersectsWith(item.Bounds))
+            //    {
+            //        item.Image = Properties.Resources.springboardUp;
+            //        jump = true;
+            //        g = 32;
+            //        force = g;
+            //    }
+            //}
         }
 
 
@@ -178,4 +178,5 @@ namespace BrianV1
 
 
     }
+
 }

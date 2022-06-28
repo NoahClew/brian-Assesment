@@ -16,7 +16,7 @@ namespace BrianV1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Level6());
+            Application.Run(new startMenu());
         }
 
 
