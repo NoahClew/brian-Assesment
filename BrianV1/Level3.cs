@@ -121,7 +121,7 @@ namespace BrianV1
             {
                 right = false;
             }
-            if (e.KeyCode == Keys.Add)
+            if (e.KeyCode == Keys.A)
             {
                 left = false;
             }
