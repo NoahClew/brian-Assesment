@@ -34,9 +34,10 @@ namespace BrianV1
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
             loadingScreen lS = new loadingScreen();
             lS.Show();
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)

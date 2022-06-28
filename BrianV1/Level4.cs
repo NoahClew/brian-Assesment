@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace BrianV1
 {
-    public partial class Level2 : Form
+    public partial class Level4 : Form
     {
 
         const int STARTX = 68;
         const int STARTY = 164;
         int deaths = 0;
-        
         bool right;
         bool left;
         bool jump;
@@ -26,7 +25,7 @@ namespace BrianV1
         List<PictureBox> dangerBlocks = new List<PictureBox>();
         List<PictureBox> springs = new List<PictureBox>();
 
-        public Level2()
+        public Level4()
         {
             InitializeComponent();
             picPlayer.BringToFront();
@@ -55,10 +54,10 @@ namespace BrianV1
 
         private void tmrMove_Tick(object sender, EventArgs e)
         {
-            if (jump == false)
-            {
-                picSpring1.Image = picSpring1.Image = Properties.Resources.springboardDown;
-            }
+            //if (jump == false)
+            //{
+            //    picSpring1.Image = picSpring1.Image = Properties.Resources.springboardDown;
+            //}
 
 
             if (right == true)
@@ -133,9 +132,10 @@ namespace BrianV1
             {
                 picNextLevel.Left -= 100;
                 this.Hide();
-                Level3 L3 = new Level3();
-                L3.Show();
+                Level5 L5 = new Level5();
+                L5.Show();
                 this.Close();
+
             }
             foreach (var item in collision)
             {
@@ -155,23 +155,23 @@ namespace BrianV1
                     picPlayer.Show();
                 }
             }
-            foreach (var item in springs)
-            {
-                if (picPlayer.Bounds.IntersectsWith(item.Bounds))
-                {
-                    picSpring1.Image = Properties.Resources.springboardUp;
-                    if (jump != true)
-                    {
-                        jump = true;
-                        g = 32;
-                        force = g;
-                    }
-                }
+            //foreach (var item in springs)
+            //{
+            //    if (picPlayer.Bounds.IntersectsWith(item.Bounds))
+            //    {
+            //        picSpring1.Image = Properties.Resources.springboardUp;
+            //        if (jump != true)
+            //        {
+            //            jump = true;
+            //            g = 32;
+            //            force = g;
+            //        }
+            //    }
             }
         }
 
        
-    }
 }
+
     
     

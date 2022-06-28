@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Level6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level6.Designer.cs">
+      <DependentUpon>Level6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level5.Designer.cs">
+      <DependentUpon>Level5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level4.Designer.cs">
+      <DependentUpon>Level4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level3.Designer.cs">
+      <DependentUpon>Level3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Level2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +96,18 @@
     <Compile Include="startMenu.Designer.cs">
       <DependentUpon>startMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Level6.resx">
+      <DependentUpon>Level6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level5.resx">
+      <DependentUpon>Level5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level4.resx">
+      <DependentUpon>Level4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level3.resx">
+      <DependentUpon>Level3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Level2.resx">
       <DependentUpon>Level2.cs</DependentUpon>
     </EmbeddedResource>

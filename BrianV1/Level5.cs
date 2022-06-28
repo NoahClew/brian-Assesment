@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace BrianV1
 {
-    public partial class Level2 : Form
+    public partial class Level5 : Form
     {
 
         const int STARTX = 68;
         const int STARTY = 164;
         int deaths = 0;
-        
         bool right;
         bool left;
         bool jump;
@@ -26,7 +25,7 @@ namespace BrianV1
         List<PictureBox> dangerBlocks = new List<PictureBox>();
         List<PictureBox> springs = new List<PictureBox>();
 
-        public Level2()
+        public Level5()
         {
             InitializeComponent();
             picPlayer.BringToFront();
@@ -45,8 +44,8 @@ namespace BrianV1
             screen.SendToBack();
             picPlayer.Location = new Point(STARTX, STARTY);
             lblNdeaths.Text = "0";
-           
-        
+
+
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -128,14 +127,15 @@ namespace BrianV1
             }
         }
         private void tmrColl_Tick(object sender, EventArgs e)
-        { 
+        {
             if (picPlayer.Bounds.IntersectsWith(picNextLevel.Bounds))
             {
                 picNextLevel.Left -= 100;
                 this.Hide();
-                Level3 L3 = new Level3();
-                L3.Show();
+                Level6 L6 = new Level6();
+                L6.Show();
                 this.Close();
+
             }
             foreach (var item in collision)
             {
@@ -170,8 +170,10 @@ namespace BrianV1
             }
         }
 
-       
+
+
+
+
+
     }
 }
-    
-    

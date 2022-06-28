@@ -46,9 +46,10 @@ namespace BrianV1
         private void tmrLoad_Tick(object sender, EventArgs e)
         {
             tmrLoad.Stop();
+            this.Hide();
             Level1 L1 = new Level1();
             L1.ShowDialog();
-            
+            this.Close();
         }
     }
 }

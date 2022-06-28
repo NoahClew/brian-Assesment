@@ -128,14 +128,19 @@ namespace BrianV1
             }
         }
         private void tmrColl_Tick(object sender, EventArgs e)
-        { 
+        {
+            if (picPlayer.Left < screen.Left)
+            {
+                picPlayer.Left += 7;
+            }
+
             if (picPlayer.Bounds.IntersectsWith(picNextLevel.Bounds))
             {
                 picNextLevel.Left -= 100;
+                this.Hide();
                 Level2 L2 = new Level2();
-                
                 L2.Show();
-
+                this.Close();
             }
             foreach (var item in collision)
             {

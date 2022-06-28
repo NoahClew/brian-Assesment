@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace BrianV1
 {
-    public partial class Level2 : Form
+    public partial class Level3 : Form
     {
 
         const int STARTX = 68;
         const int STARTY = 164;
         int deaths = 0;
-        
         bool right;
         bool left;
         bool jump;
@@ -26,7 +25,7 @@ namespace BrianV1
         List<PictureBox> dangerBlocks = new List<PictureBox>();
         List<PictureBox> springs = new List<PictureBox>();
 
-        public Level2()
+        public Level3()
         {
             InitializeComponent();
             picPlayer.BringToFront();
@@ -133,8 +132,8 @@ namespace BrianV1
             {
                 picNextLevel.Left -= 100;
                 this.Hide();
-                Level3 L3 = new Level3();
-                L3.Show();
+                Level4 L4 = new Level4();
+                L4.Show();
                 this.Close();
             }
             foreach (var item in collision)
