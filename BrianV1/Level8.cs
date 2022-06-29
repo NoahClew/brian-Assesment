@@ -13,8 +13,8 @@ namespace BrianV1
     public partial class Level8 : Form
     {
 
-        const int STARTX = 68;
-        const int STARTY = 164;
+        const int STARTX = 43;
+        const int STARTY = 320;
         int deaths = 0;
         bool right;
         bool left;
@@ -133,8 +133,8 @@ namespace BrianV1
             {
                 picNextLevel.Left -= 100;
                 this.Hide();
-                Level2 L2 = new Level2();
-                L2.Show();
+                Level9 L9 = new Level9();
+                L9.Show();
                 this.Close();
 
             }

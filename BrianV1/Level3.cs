@@ -13,8 +13,8 @@ namespace BrianV1
     public partial class Level3 : Form
     {
 
-        const int STARTX = 68;
-        const int STARTY = 164;
+        const int STARTX = 43;
+        const int STARTY = 320;
         int deaths = 0;
         bool right;
         bool left;

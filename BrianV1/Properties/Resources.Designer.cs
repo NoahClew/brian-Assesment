@@ -123,6 +123,16 @@ namespace BrianV1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__1_ {
+            get {
+                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap f53da492d29d6afd2f4260f2b1b163cd {
             get {
                 object obj = ResourceManager.GetObject("f53da492d29d6afd2f4260f2b1b163cd", resourceCulture);
@@ -176,6 +186,16 @@ namespace BrianV1.Properties {
         internal static System.Drawing.Bitmap New_Piskel__1_ {
             get {
                 object obj = ResourceManager.GetObject("New Piskel (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Simple_Trophy_clipart_transparent {
+            get {
+                object obj = ResourceManager.GetObject("Simple-Trophy-clipart-transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

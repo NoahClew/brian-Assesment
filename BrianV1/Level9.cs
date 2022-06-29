@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BrianV1
 {
-    public partial class Level6 : Form
+    public partial class Level9 : Form
     {
 
         const int STARTX = 43;
@@ -25,7 +25,7 @@ namespace BrianV1
         List<PictureBox> dangerBlocks = new List<PictureBox>();
         List<PictureBox> springs = new List<PictureBox>();
 
-        public Level6()
+        public Level9()
         {
             InitializeComponent();
             picPlayer.BringToFront();
@@ -54,7 +54,7 @@ namespace BrianV1
 
         private void tmrMove_Tick(object sender, EventArgs e)
         {
-            
+
 
 
             if (right == true)
@@ -133,8 +133,8 @@ namespace BrianV1
             {
                 picNextLevel.Left -= 100;
                 this.Hide();
-                Level7 L7 = new Level7();
-                L7.Show();
+                Level10 L10 = new Level10();
+                L10.Show();
                 this.Close();
 
             }
@@ -160,7 +160,7 @@ namespace BrianV1
             {
                 if (jump == false)
                 {
-                    item.Image = picSpring1.Image = Properties.Resources.springboardDown;
+                    item.Image = Properties.Resources.springboardDown;
                 }
                 if (picPlayer.Bounds.IntersectsWith(item.Bounds))
                 {
@@ -178,4 +178,5 @@ namespace BrianV1
 
 
     }
+
 }
