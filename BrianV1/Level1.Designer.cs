@@ -99,7 +99,7 @@ namespace BrianV1
             // 
             // picTut
             // 
-            this.picTut.Image = global::BrianV1.Properties.Resources.f53da492d29d6afd2f4260f2b1b163cd;
+            this.picTut.Image = global::BrianV1.Properties.Resources.d78a5390ddd44d4aed58833e26c53dd7;
             this.picTut.Location = new System.Drawing.Point(12, 28);
             this.picTut.Name = "picTut";
             this.picTut.Size = new System.Drawing.Size(547, 84);
@@ -190,7 +190,7 @@ namespace BrianV1
             // 
             this.lblDeath.AutoSize = true;
             this.lblDeath.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeath.Location = new System.Drawing.Point(3, 3);
+            this.lblDeath.Location = new System.Drawing.Point(3, 2);
             this.lblDeath.Name = "lblDeath";
             this.lblDeath.Size = new System.Drawing.Size(67, 18);
             this.lblDeath.TabIndex = 49;

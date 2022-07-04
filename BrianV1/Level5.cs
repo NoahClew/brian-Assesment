@@ -15,7 +15,7 @@ namespace BrianV1
 
         const int STARTX = 43;
         const int STARTY = 320;
-        int deaths = 0;
+        
         bool right;
         bool left;
         bool jump;
@@ -43,7 +43,7 @@ namespace BrianV1
             }
             screen.SendToBack();
             picPlayer.Location = new Point(STARTX, STARTY);
-            lblNdeaths.Text = "0";
+            lblNdeaths.Text = $"{Program.deaths}";
 
 
         }
@@ -54,10 +54,7 @@ namespace BrianV1
 
         private void tmrMove_Tick(object sender, EventArgs e)
         {
-            if (jump == false)
-            {
-                picSpring1.Image = picSpring1.Image = Properties.Resources.springboardDown;
-            }
+            
 
 
             if (right == true)
@@ -149,23 +146,24 @@ namespace BrianV1
             {
                 if (picPlayer.Bounds.IntersectsWith(item.Bounds))
                 {
-                    deaths++;
-                    lblNdeaths.Text = $"{deaths}";
+                    Program.deaths++;
+                    lblNdeaths.Text = $"{Program.deaths}";
                     picPlayer.Location = new Point(STARTX, STARTY);
                     picPlayer.Show();
                 }
             }
             foreach (var item in springs)
             {
+                if (jump == false)
+                {
+                    item.Image = picSpring1.Image = Properties.Resources.springboardDown;
+                }
                 if (picPlayer.Bounds.IntersectsWith(item.Bounds))
                 {
-                    picSpring1.Image = Properties.Resources.springboardUp;
-                    if (jump != true)
-                    {
-                        jump = true;
-                        g = 32;
-                        force = g;
-                    }
+                    item.Image = Properties.Resources.springboardUp;
+                    jump = true;
+                    g = 32;
+                    force = g;
                 }
             }
         }

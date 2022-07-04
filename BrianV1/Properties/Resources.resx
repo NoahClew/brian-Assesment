@@ -118,20 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="castleMid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\castleMid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="moving left animation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\moving left animation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="New Piskel (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Piskel (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="springboardDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\springboardDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="loading-60" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loading-60.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="springboardDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\springboardDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="springboardUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\springboardUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,20 +151,20 @@
   <data name="Barline-Loading-Images-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barline-Loading-Images-1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="springboardUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\springboardUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="moving animation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\moving animation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wireLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wireLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bombFlash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bombFlash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wireLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wireLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="castleMid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\castleMid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vT8DJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vT8DJ.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,10 +172,13 @@
   <data name="castleRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\castleRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Simple-Trophy-clipart-transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Simple-Trophy-clipart-transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="f53da492d29d6afd2f4260f2b1b163cd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f53da492d29d6afd2f4260f2b1b163cd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Simple-Trophy-clipart-transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Simple-Trophy-clipart-transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="d78a5390ddd44d4aed58833e26c53dd7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d78a5390ddd44d4aed58833e26c53dd7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

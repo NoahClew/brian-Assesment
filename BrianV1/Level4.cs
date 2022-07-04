@@ -15,7 +15,7 @@ namespace BrianV1
 
         const int STARTX = 43;
         const int STARTY = 320;
-        int deaths = 0;
+        
         bool right;
         bool left;
         bool jump;
@@ -43,9 +43,9 @@ namespace BrianV1
             }
             screen.SendToBack();
             picPlayer.Location = new Point(STARTX, STARTY);
-            lblNdeaths.Text = "0";
-           
-        
+            lblNdeaths.Text = $"{Program.deaths}";
+
+
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -153,8 +153,8 @@ namespace BrianV1
             {
                 if (picPlayer.Bounds.IntersectsWith(item.Bounds))
                 {
-                    deaths++;
-                    lblNdeaths.Text = $"{deaths}";
+                    Program.deaths++;
+                    lblNdeaths.Text = $"{Program.deaths}";
                     picPlayer.Location = new Point(STARTX, STARTY);
                     picPlayer.Show();
                 }

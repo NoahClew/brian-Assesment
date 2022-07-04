@@ -8,10 +8,15 @@ namespace BrianV1
 {
     static class Program
     {
+        public static int deaths;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+
+
+
+
         static void Main()
         {
             Application.EnableVisualStyles();

@@ -15,6 +15,7 @@ namespace BrianV1
         public victoryScreen()
         {
             InitializeComponent();
+            label1.BringToFront();
         }
 
         private void button1_Click(object sender, EventArgs e)

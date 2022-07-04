@@ -248,5 +248,8 @@
   <ItemGroup>
     <None Include="Resources\Simple-Trophy-clipart-transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d78a5390ddd44d4aed58833e26c53dd7.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

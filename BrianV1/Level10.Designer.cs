@@ -323,7 +323,7 @@ namespace BrianV1
             // 
             this.lblNdeaths.AutoSize = true;
             this.lblNdeaths.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNdeaths.Location = new System.Drawing.Point(59, 2);
+            this.lblNdeaths.Location = new System.Drawing.Point(65, 5);
             this.lblNdeaths.Name = "lblNdeaths";
             this.lblNdeaths.Size = new System.Drawing.Size(16, 18);
             this.lblNdeaths.TabIndex = 50;
@@ -333,7 +333,7 @@ namespace BrianV1
             // 
             this.lblDeath.AutoSize = true;
             this.lblDeath.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeath.Location = new System.Drawing.Point(3, 3);
+            this.lblDeath.Location = new System.Drawing.Point(3, 5);
             this.lblDeath.Name = "lblDeath";
             this.lblDeath.Size = new System.Drawing.Size(67, 18);
             this.lblDeath.TabIndex = 49;
