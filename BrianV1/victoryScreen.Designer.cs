@@ -39,18 +39,18 @@ namespace BrianV1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(170, 65);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(153, 9);
             this.label1.MaximumSize = new System.Drawing.Size(600, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(597, 130);
+            this.label1.Size = new System.Drawing.Size(585, 146);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Congratulations          Victory is yours";
+            this.label1.Text = "Congratulations      Victory is yours";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BrianV1.Properties.Resources.Simple_Trophy_clipart_transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(-29, 198);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, 228);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(685, 229);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -59,7 +59,7 @@ namespace BrianV1
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Modern No. 20", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(433, 298);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 47);
@@ -79,6 +79,7 @@ namespace BrianV1
             this.Controls.Add(this.label1);
             this.Name = "victoryScreen";
             this.Text = "victoryScreen";
+            this.Load += new System.EventHandler(this.victoryScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

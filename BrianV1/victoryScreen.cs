@@ -16,11 +16,17 @@ namespace BrianV1
         {
             InitializeComponent();
             label1.BringToFront();
+            label1.Text += $" Deaths: {Program.deaths}";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void victoryScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -92,17 +92,11 @@ namespace BrianV1
         {
             if (e.KeyCode == Keys.D)
             {
-
                 right = true;
             }
             if (e.KeyCode == Keys.A)
             {
-
                 left = true;
-            }
-            if (e.KeyCode == Keys.Escape)
-            {
-                this.Close();
             }
             if (jump != true)
             {
